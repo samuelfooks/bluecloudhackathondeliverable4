@@ -1,0 +1,37 @@
+SKATE-PLANKTON ECOSYSTEM ANALYSIS REPORT
+==================================================
+
+Generated on: 2025-10-01 10:02:53
+
+SKATE DATA SUMMARY:
+  Total Records: 4,925
+  Individual Skates: 52
+  Date Range: 2021-08-05 to 2024-08-20
+  Total Distance: 388.20 degrees
+  Average Speed: 0.0797 degrees/day
+
+PLANKTON DATA SUMMARY:
+  Total Records: 24,400
+  Source Files: 1
+  Plankton Variables: 3
+  Environmental Variables: 3
+
+MODEL PERFORMANCE:
+  Model Type: RandomForestRegressor
+  R² Score: 0.9957
+  RMSE: 0.0090
+  MAE: 0.0012
+  Features Used: 6
+
+OUTPUT FILES:
+  Data Files:
+    - skate_processed.csv
+    - plankton_processed.csv
+  Visualizations:
+    - skate_movement_map.html
+    - plankton_distribution_map.html
+    - time_series_analysis.png
+    - correlation_heatmap.png
+    - dashboard.html
+    - summary_report.png
+    - model_performance.png
